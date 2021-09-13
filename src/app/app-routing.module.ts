@@ -7,7 +7,7 @@ import { ListaMunicipiosComponent } from './municipio/lista-municipios/lista-mun
 
 const routes: Routes = [
   { path: '', component: ListaMunicipiosComponent },
-  { path: './:id', component: MunicipioOverviewComponent},
+  { path: 'overview/:id', component: MunicipioOverviewComponent},
   { path: 'sobre', component: SobreComponent }
 ];
 
