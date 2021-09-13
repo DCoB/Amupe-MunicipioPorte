@@ -25,6 +25,10 @@ export class MunicipiosService {
   getPrevisoesById(idMunicipio: number): IPrevisao2040 {
     return previsaoDataBase.filter((previsoes) => previsoes.id == idMunicipio)[0];
   }
+
+  calculaProximoAnoAlteraPorte() {
+    return 0;
+  }
 }
 
 

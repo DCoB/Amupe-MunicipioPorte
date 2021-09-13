@@ -12,7 +12,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatSelectModule } from '@angular/material/select';
 
+//Charts
+import { ChartModule } from 'primeng/chart';
 
 //App
 import { CoreModuleModule } from './core/core-module.module';
@@ -27,7 +30,8 @@ const materialModules = [
   MatIconModule,
   MatSlideToggleModule,
   MatPaginatorModule,
-  MatSortModule
+  MatSortModule,
+  MatSelectModule
 ]
 
 @NgModule({
@@ -43,6 +47,7 @@ const materialModules = [
     CoreModuleModule,
     BrowserAnimationsModule,
     FormsModule,
+    ChartModule,
     materialModules
   ],
   providers: [],

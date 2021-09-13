@@ -9,9 +9,13 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class MunicipioOverviewComponent implements OnInit {
 
-  municipio!: IMunicipio;
+  dataSet: any;
+  chartOptions: any;
 
-  previsoesPopulacionais !: IPrevisao2040;
+  municipio!: IMunicipio;
+  previsoesPopulacionais: any;
+
+  politicasPublicasList : any[] = [];
 
   constructor(
     private readonly _municioService: MunicipiosService,
@@ -28,6 +32,75 @@ export class MunicipioOverviewComponent implements OnInit {
     else {
       this.previsoesPopulacionais = this._municioService.getPrevisoesById(idMunicipio + 1);
     }
+
+    this.politicasPublicasList = ['Serviço Social'];
+
+
+    let labelsAnos = Object.keys(this.previsoesPopulacionais).splice(0, 38);
+
+    let datas: any[] = [];
+    labelsAnos.forEach((label) => {
+      datas.push(this.previsoesPopulacionais[label]);
+    })
+
+    this.configureChart(labelsAnos, datas);
+
+    console.log('Labels Anos', labelsAnos);
+    console.log('Values Anos', datas);
+    console.log('keys', Object.keys(this.previsoesPopulacionais));
+  }
+
+  configureChart(labels: any[], datas: any[]) {
+    this.dataSet = {
+      labels: labels,
+      datasets: [
+        {
+          label: this.municipio.cidade,
+          data: datas,
+          fill: true,
+          borderColor: '#FFA726',
+          backgroundColor: 'rgba(255,167,38,0.2)',
+          tension: .4
+        }
+      ]
+    };
+
+    this.chartOptions = {
+      title: {
+        display: true,
+        text: 'My Title',
+        fontSize: 16
+      },
+      plugins: {
+        legend: {
+          labels: {
+            color: '#495057'
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: '#495057'
+          },
+          grid: {
+            color: '#ebedef'
+          }
+        },
+        y: {
+          ticks: {
+            color: '#495057'
+          },
+          grid: {
+            color: '#ebedef'
+          }
+        }
+      }
+    };
+  }
+
+  formatNumber(number: number) {
+    return number.toLocaleString();
   }
 
 }

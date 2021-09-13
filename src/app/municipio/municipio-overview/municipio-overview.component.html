@@ -1,1 +1,134 @@
-<p>municipio-overview works!</p>
+<div class="labelControl titleCidadeEscolhida">
+  <div class="titleCidadeEscolhidaLabel">{{municipio.cidade}}</div>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Política pública</mat-label>
+    <mat-select [value]="'Serviço Social'" [disabled]="true">
+      <mat-option value="Serviço Social">Serviço Social</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+<div class="areaDivisao">
+  <div>
+    <!-- Região Desenvolvimento Control -->
+    <div class="control">
+      <div class="labelControl">Região desenvolvimento</div>
+      <div class="controlArea">
+        <div>{{municipio.rd}}</div>
+      </div>
+    </div>
+
+    <!-- Porte Populacional Control -->
+    <div class="control">
+      <div class="labelControl">Porte populacional</div>
+      <div class="controlArea">
+        <div class="controlArea1">2010</div>
+        <div class="controlArea2">{{municipio.porte2010}}</div>
+        <div class="controlArea1">2021</div>
+        <div class="controlArea2">{{municipio.porte2021}}</div>
+      </div>
+    </div>
+
+    <!-- Previsão da próxima mudança de porte Control -->
+    <div class="control">
+      <div class="labelControl">Previsão da próxima mudança de porte</div>
+      <div class="controlArea">
+        <div class="controlArea1">2010</div>
+        <div class="controlArea2">{{municipio.porte2010}}</div>
+        <div class="controlArea1">2021</div>
+        <div class="controlArea2">{{municipio.porte2021}}</div>
+      </div>
+    </div>
+
+    <!-- População -->
+    <div class="control">
+      <div class="labelControl">População</div>
+      <div class="controlArea">
+        <div class="controlArea1">2009</div>
+        <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2009'])}}</div>
+        <div class="controlArea1">2021</div>
+        <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2021'])}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="chartArea">
+    <div class="labelControl">Crescimento populacional</div>
+    <p-chart type="line" [data]="dataSet" [options]="chartOptions"></p-chart>
+  </div>
+</div>
+
+<div class="labelControl titleCidadeEscolhida secondArea">
+  <div class="titleCidadeEscolhidaLabel">{{municipio.cidade}} - Política pública de Assistência Social</div>
+</div>
+<div class="areaDivisao" style="height: 500px;">
+  <!-- Equipamento Control -->
+  <div class="control100">
+    <div class="labelControl">Equipamentos</div>
+    <div>
+      <!-- CRAS -->
+      <div class="controlArea100">
+        <div class="controlArea1">CRAS</div>
+        <div class="equipamentoLabel">
+          <div>Quantidade</div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+      </div>
+      <!-- CREAS -->
+      <div class="controlArea100">
+        <div class="controlArea1">CREAS</div>
+        <div class="equipamentoLabel">
+          <div>Quantidade</div>
+          <div>{{municipio.equipamentos.creas}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+      </div>
+      <!-- CENTRO POP -->
+      <div class="controlArea100">
+        <div class="controlArea1">CENTRO POP</div>
+        <div class="equipamentoLabel">
+          <div>Quantidade</div>
+          <div>{{municipio.equipamentos.centroPOP}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+      </div>
+      <!-- ACOLHIMENTO INSTITUCIONAL -->
+      <div class="controlArea100">
+        <div class="controlArea1">ACOLHIMENTO INSTITUCIONAL</div>
+        <div class="equipamentoLabel">
+          <div>Quantidade</div>
+          <div>{{municipio.equipamentos.servAcolhimento}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+        <div class="equipamentoLabel">
+          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
+          <div>{{municipio.equipamentos.cras}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
