@@ -1,0 +1,31 @@
+.headerFilters {
+  display: flex;
+}
+
+.clearButtonSearch {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.searchField {
+  width: 300px;
+}
+
+.toggleButtonApenasPortesAlterados {
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.toggleButtonApenasPortesAlteradosLabel {
+  color: gray;
+}
+
+.tableWidth {
+  width: 100%;
+}
+
+.mat-row:hover {
+  background-color: rgb(0, 0, 0, 0.05);
+  cursor: pointer;
+}

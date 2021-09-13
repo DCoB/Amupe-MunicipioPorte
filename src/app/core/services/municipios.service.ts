@@ -1,15 +1,34 @@
 import { Injectable } from '@angular/core';
 
+import { municipiosDataBase } from '../../core/models/municipiosModel'
+import { previsaoDataBase } from '../models/previsaoModel';
+
 @Injectable({
   providedIn: 'root'
 })
 export class MunicipiosService {
 
   constructor() { }
+
+  getAllMunicipios(): IMunicipio[] {
+    return municipiosDataBase;
+  }
+
+  getAllApenasPortesAlterados(): IMunicipio[] {
+    return municipiosDataBase.filter((municipio) => municipio.porte2010 !== municipio.porte2021);
+  }
+
+  getById(id: number): IMunicipio {
+    return municipiosDataBase.filter((municipio) => municipio.id == id)[0];
+  }
+
+  getPrevisoesById(idMunicipio: number): IPrevisao2040 {
+    return previsaoDataBase.filter((previsoes) => previsoes.id == idMunicipio)[0];
+  }
 }
 
 
-interface IMunicipio {
+export interface IMunicipio {
   id: number;
   cidade: string;
   rd: string;
@@ -25,7 +44,7 @@ interface IEquipamentosServicoSocial {
   servAcolhimento: number;
 }
 
-interface IPrevisao2040 {
+export interface IPrevisao2040 {
   id: number;
   Cidade: string;
   2001: number;
