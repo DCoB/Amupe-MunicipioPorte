@@ -61,6 +61,8 @@ export class ListaMunicipiosComponent implements OnInit, AfterViewInit {
   }
 
   apenasPortesAlteradosChange() {
+    this.dataSource.paginator?.firstPage()
+
     if (this.apenasPortesAlterados) {
       this.configureDataSource(this._municiosService.getAllApenasPortesAlterados());
     }
