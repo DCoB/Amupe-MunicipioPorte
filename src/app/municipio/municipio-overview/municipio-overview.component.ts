@@ -17,20 +17,26 @@ export class MunicipioOverviewComponent implements OnInit {
 
   politicasPublicasList : any[] = [];
 
+  arrecadacaoAnualPorteDesatualizadoAntesRegras2019!: number;
+  arrecadacaoAnualPorteDesatualizadoPosRegras2019!: number;
+  arrecadacaoAnualPorteAtualizadoPosRegras2019!: number;
+
+  arrecadacaoAnualAcumuladaPorteDesatualizado: number = 0;
+  arrecadacaoAnualAcumuladaPorteAtualizado: number = 0;
   constructor(
-    private readonly _municioService: MunicipiosService,
+    readonly municipioService: MunicipiosService,
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     const idMunicipio = parseInt(this.route.snapshot.params['id']);
 
-    this.municipio = this._municioService.getById(idMunicipio);
+    this.municipio = this.municipioService.getById(idMunicipio);
 
     if (idMunicipio >= 5) {
-      this.previsoesPopulacionais = this._municioService.getPrevisoesById(idMunicipio + 6);
+      this.previsoesPopulacionais = this.municipioService.getPrevisoesById(idMunicipio + 6);
     }
     else {
-      this.previsoesPopulacionais = this._municioService.getPrevisoesById(idMunicipio + 1);
+      this.previsoesPopulacionais = this.municipioService.getPrevisoesById(idMunicipio + 1);
     }
 
     this.politicasPublicasList = ['Serviço Social'];
@@ -45,9 +51,26 @@ export class MunicipioOverviewComponent implements OnInit {
 
     this.configureChart(labelsAnos, datas);
 
-    console.log('Labels Anos', labelsAnos);
-    console.log('Values Anos', datas);
-    console.log('keys', Object.keys(this.previsoesPopulacionais));
+    this.calculoArrecadacao();
+  }
+
+  calculoArrecadacao() {
+    this.arrecadacaoAnualPorteDesatualizadoAntesRegras2019 =
+    this.municipioService.calcularArrecadacaoAnual(false, this.municipio.porte2010, this.municipio.equipamentos);
+
+    this.arrecadacaoAnualPorteDesatualizadoPosRegras2019 =
+      this.municipioService.calcularArrecadacaoAnual(true, this.municipio.porte2010, this.municipio.equipamentos);
+
+    this.arrecadacaoAnualPorteAtualizadoPosRegras2019 =
+      this.municipioService.calcularArrecadacaoAnual(true, this.municipio.porte2021, this.municipio.equipamentos);
+
+    for (let x = 2010; x <= 2020; x++) {
+      this.arrecadacaoAnualAcumuladaPorteAtualizado +=
+        this.municipioService.calcularArrecadacaoAnual( x == 2020, x == 2020 ? this.municipio.porte2021 : this.municipio.porte2010, this.municipio.equipamentos);
+
+      this.arrecadacaoAnualAcumuladaPorteDesatualizado +=
+        this.municipioService.calcularArrecadacaoAnual( x == 2020, this.municipio.porte2010, this.municipio.equipamentos);
+    }
   }
 
   configureChart(labels: any[], datas: any[]) {

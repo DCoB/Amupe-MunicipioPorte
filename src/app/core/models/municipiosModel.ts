@@ -2,7 +2,7 @@ export const municipiosDataBase = [
   {
       id: 0,
       cidade: "Abreu e Lima (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Médio Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -15,7 +15,7 @@ export const municipiosDataBase = [
   {
       id: 1,
       cidade: "Afogados da Ingazeira (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -28,7 +28,7 @@ export const municipiosDataBase = [
   {
       id: 2,
       cidade: "Afrânio (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -41,7 +41,7 @@ export const municipiosDataBase = [
   {
       id: 3,
       cidade: "Agrestina (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -54,7 +54,7 @@ export const municipiosDataBase = [
   {
       id: 4,
       cidade: "Água Preta (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -67,7 +67,7 @@ export const municipiosDataBase = [
   {
       id: 5,
       cidade: "Águas Belas (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -80,7 +80,7 @@ export const municipiosDataBase = [
   {
       id: 6,
       cidade: "Alagoinha (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -93,7 +93,7 @@ export const municipiosDataBase = [
   {
       id: 7,
       cidade: "Aliança (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -106,7 +106,7 @@ export const municipiosDataBase = [
   {
       id: 8,
       cidade: "Altinho (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -119,7 +119,7 @@ export const municipiosDataBase = [
   {
       id: 9,
       cidade: "Amaraji (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -132,7 +132,7 @@ export const municipiosDataBase = [
   {
       id: 10,
       cidade: "Angelim (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -145,7 +145,7 @@ export const municipiosDataBase = [
   {
       id: 11,
       cidade: "Araçoiaba (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -158,7 +158,7 @@ export const municipiosDataBase = [
   {
       id: 12,
       cidade: "Araripina (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -171,7 +171,7 @@ export const municipiosDataBase = [
   {
       id: 13,
       cidade: "Arcoverde (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -184,7 +184,7 @@ export const municipiosDataBase = [
   {
       id: 14,
       cidade: "Barra de Guabiraba (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -197,7 +197,7 @@ export const municipiosDataBase = [
   {
       id: 15,
       cidade: "Barreiros (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -210,7 +210,7 @@ export const municipiosDataBase = [
   {
       id: 16,
       cidade: "Belém de Maria (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -223,7 +223,7 @@ export const municipiosDataBase = [
   {
       id: 17,
       cidade: "Belém do São Francisco (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -236,7 +236,7 @@ export const municipiosDataBase = [
   {
       id: 18,
       cidade: "Belo Jardim (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -249,7 +249,7 @@ export const municipiosDataBase = [
   {
       id: 19,
       cidade: "Betânia (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -262,7 +262,7 @@ export const municipiosDataBase = [
   {
       id: 20,
       cidade: "Bezerros (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -275,7 +275,7 @@ export const municipiosDataBase = [
   {
       id: 21,
       cidade: "Bodocó (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -288,7 +288,7 @@ export const municipiosDataBase = [
   {
       id: 22,
       cidade: "Bom Conselho (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -301,7 +301,7 @@ export const municipiosDataBase = [
   {
       id: 23,
       cidade: "Bom Jardim (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -314,7 +314,7 @@ export const municipiosDataBase = [
   {
       id: 24,
       cidade: "Bonito (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -327,7 +327,7 @@ export const municipiosDataBase = [
   {
       id: 25,
       cidade: "Brejão (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -340,7 +340,7 @@ export const municipiosDataBase = [
   {
       id: 26,
       cidade: "Brejinho (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -353,7 +353,7 @@ export const municipiosDataBase = [
   {
       id: 27,
       cidade: "Brejo da Madre de Deus (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -366,7 +366,7 @@ export const municipiosDataBase = [
   {
       id: 28,
       cidade: "Buenos Aires (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -379,7 +379,7 @@ export const municipiosDataBase = [
   {
       id: 29,
       cidade: "Buíque (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -392,7 +392,7 @@ export const municipiosDataBase = [
   {
       id: 30,
       cidade: "Cabo de Santo Agostinho (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -405,7 +405,7 @@ export const municipiosDataBase = [
   {
       id: 31,
       cidade: "Cabrobó (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -418,7 +418,7 @@ export const municipiosDataBase = [
   {
       id: 32,
       cidade: "Cachoeirinha (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -431,7 +431,7 @@ export const municipiosDataBase = [
   {
       id: 33,
       cidade: "Caetés (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -444,7 +444,7 @@ export const municipiosDataBase = [
   {
       id: 34,
       cidade: "Calçado (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -457,7 +457,7 @@ export const municipiosDataBase = [
   {
       id: 35,
       cidade: "Calumbi (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -470,7 +470,7 @@ export const municipiosDataBase = [
   {
       id: 36,
       cidade: "Camaragibe (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -483,7 +483,7 @@ export const municipiosDataBase = [
   {
       id: 37,
       cidade: "Camocim de São Félix (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -496,7 +496,7 @@ export const municipiosDataBase = [
   {
       id: 38,
       cidade: "Camutanga (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -509,7 +509,7 @@ export const municipiosDataBase = [
   {
       id: 39,
       cidade: "Canhotinho (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -522,7 +522,7 @@ export const municipiosDataBase = [
   {
       id: 40,
       cidade: "Capoeiras (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -535,7 +535,7 @@ export const municipiosDataBase = [
   {
       id: 41,
       cidade: "Carnaíba (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -548,7 +548,7 @@ export const municipiosDataBase = [
   {
       id: 42,
       cidade: "Carnaubeira da Penha (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -561,7 +561,7 @@ export const municipiosDataBase = [
   {
       id: 43,
       cidade: "Carpina (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -574,7 +574,7 @@ export const municipiosDataBase = [
   {
       id: 44,
       cidade: "Caruaru (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -587,7 +587,7 @@ export const municipiosDataBase = [
   {
       id: 45,
       cidade: "Casinhas (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -600,7 +600,7 @@ export const municipiosDataBase = [
   {
       id: 46,
       cidade: "Catende (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -613,7 +613,7 @@ export const municipiosDataBase = [
   {
       id: 47,
       cidade: "Cedro (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -626,7 +626,7 @@ export const municipiosDataBase = [
   {
       id: 48,
       cidade: "Chã de Alegria (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -639,7 +639,7 @@ export const municipiosDataBase = [
   {
       id: 49,
       cidade: "Chã Grande (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -652,7 +652,7 @@ export const municipiosDataBase = [
   {
       id: 50,
       cidade: "Condado (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -665,7 +665,7 @@ export const municipiosDataBase = [
   {
       id: 51,
       cidade: "Correntes (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -678,7 +678,7 @@ export const municipiosDataBase = [
   {
       id: 52,
       cidade: "Cortês (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -691,7 +691,7 @@ export const municipiosDataBase = [
   {
       id: 53,
       cidade: "Cumaru (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -704,7 +704,7 @@ export const municipiosDataBase = [
   {
       id: 54,
       cidade: "Cupira (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -717,7 +717,7 @@ export const municipiosDataBase = [
   {
       id: 55,
       cidade: "Custódia (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -730,7 +730,7 @@ export const municipiosDataBase = [
   {
       id: 56,
       cidade: "Dormentes (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -743,7 +743,7 @@ export const municipiosDataBase = [
   {
       id: 57,
       cidade: "Escada (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -756,7 +756,7 @@ export const municipiosDataBase = [
   {
       id: 58,
       cidade: "Exu (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -769,7 +769,7 @@ export const municipiosDataBase = [
   {
       id: 59,
       cidade: "Feira Nova (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -782,7 +782,7 @@ export const municipiosDataBase = [
   {
       id: 60,
       cidade: "Fernando de Noronha (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -795,7 +795,7 @@ export const municipiosDataBase = [
   {
       id: 61,
       cidade: "Ferreiros (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -808,7 +808,7 @@ export const municipiosDataBase = [
   {
       id: 62,
       cidade: "Flores (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -821,7 +821,7 @@ export const municipiosDataBase = [
   {
       id: 63,
       cidade: "Floresta (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -834,7 +834,7 @@ export const municipiosDataBase = [
   {
       id: 64,
       cidade: "Frei Miguelinho (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -847,7 +847,7 @@ export const municipiosDataBase = [
   {
       id: 65,
       cidade: "Gameleira (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -860,7 +860,7 @@ export const municipiosDataBase = [
   {
       id: 66,
       cidade: "Garanhuns (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -873,7 +873,7 @@ export const municipiosDataBase = [
   {
       id: 67,
       cidade: "Glória do Goitá (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -886,7 +886,7 @@ export const municipiosDataBase = [
   {
       id: 68,
       cidade: "Goiana (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -899,7 +899,7 @@ export const municipiosDataBase = [
   {
       id: 69,
       cidade: "Granito (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -912,7 +912,7 @@ export const municipiosDataBase = [
   {
       id: 70,
       cidade: "Gravatá (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -925,7 +925,7 @@ export const municipiosDataBase = [
   {
       id: 71,
       cidade: "Iati (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -938,7 +938,7 @@ export const municipiosDataBase = [
   {
       id: 72,
       cidade: "Ibimirim (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -951,7 +951,7 @@ export const municipiosDataBase = [
   {
       id: 73,
       cidade: "Ibirajuba (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -964,7 +964,7 @@ export const municipiosDataBase = [
   {
       id: 74,
       cidade: "Igarassu (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -977,7 +977,7 @@ export const municipiosDataBase = [
   {
       id: 75,
       cidade: "Iguaracy (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -990,7 +990,7 @@ export const municipiosDataBase = [
   {
       id: 76,
       cidade: "Inajá (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1003,7 +1003,7 @@ export const municipiosDataBase = [
   {
       id: 77,
       cidade: "Ingazeira (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1016,7 +1016,7 @@ export const municipiosDataBase = [
   {
       id: 78,
       cidade: "Ipojuca (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1029,7 +1029,7 @@ export const municipiosDataBase = [
   {
       id: 79,
       cidade: "Ipubi (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1042,7 +1042,7 @@ export const municipiosDataBase = [
   {
       id: 80,
       cidade: "Itacuruba (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1055,7 +1055,7 @@ export const municipiosDataBase = [
   {
       id: 81,
       cidade: "Itaíba (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1068,7 +1068,7 @@ export const municipiosDataBase = [
   {
       id: 82,
       cidade: "Ilha de Itamaracá (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1081,7 +1081,7 @@ export const municipiosDataBase = [
   {
       id: 83,
       cidade: "Itambé (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1094,7 +1094,7 @@ export const municipiosDataBase = [
   {
       id: 84,
       cidade: "Itapetim (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1107,7 +1107,7 @@ export const municipiosDataBase = [
   {
       id: 85,
       cidade: "Itapissuma (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1120,7 +1120,7 @@ export const municipiosDataBase = [
   {
       id: 86,
       cidade: "Itaquitinga (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1133,7 +1133,7 @@ export const municipiosDataBase = [
   {
       id: 87,
       cidade: "Jaboatão dos Guararapes (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -1146,7 +1146,7 @@ export const municipiosDataBase = [
   {
       id: 88,
       cidade: "Jaqueira (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1159,7 +1159,7 @@ export const municipiosDataBase = [
   {
       id: 89,
       cidade: "Jataúba (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1172,7 +1172,7 @@ export const municipiosDataBase = [
   {
       id: 90,
       cidade: "Jatobá (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1185,7 +1185,7 @@ export const municipiosDataBase = [
   {
       id: 91,
       cidade: "João Alfredo (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1198,7 +1198,7 @@ export const municipiosDataBase = [
   {
       id: 92,
       cidade: "Joaquim Nabuco (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1211,7 +1211,7 @@ export const municipiosDataBase = [
   {
       id: 93,
       cidade: "Jucati (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1224,7 +1224,7 @@ export const municipiosDataBase = [
   {
       id: 94,
       cidade: "Jupi (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1237,7 +1237,7 @@ export const municipiosDataBase = [
   {
       id: 95,
       cidade: "Jurema (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1250,7 +1250,7 @@ export const municipiosDataBase = [
   {
       id: 96,
       cidade: "Lagoa do Carro (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1263,7 +1263,7 @@ export const municipiosDataBase = [
   {
       id: 97,
       cidade: "Lagoa de Itaenga (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1276,7 +1276,7 @@ export const municipiosDataBase = [
   {
       id: 98,
       cidade: "Lagoa do Ouro (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1289,7 +1289,7 @@ export const municipiosDataBase = [
   {
       id: 99,
       cidade: "Lagoa dos Gatos (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1302,7 +1302,7 @@ export const municipiosDataBase = [
   {
       id: 100,
       cidade: "Lagoa Grande (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1315,7 +1315,7 @@ export const municipiosDataBase = [
   {
       id: 101,
       cidade: "Lajedo (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1328,7 +1328,7 @@ export const municipiosDataBase = [
   {
       id: 102,
       cidade: "Limoeiro (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1341,7 +1341,7 @@ export const municipiosDataBase = [
   {
       id: 103,
       cidade: "Macaparana (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1354,7 +1354,7 @@ export const municipiosDataBase = [
   {
       id: 104,
       cidade: "Machados (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1367,7 +1367,7 @@ export const municipiosDataBase = [
   {
       id: 105,
       cidade: "Manari (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1380,7 +1380,7 @@ export const municipiosDataBase = [
   {
       id: 106,
       cidade: "Maraial (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1393,7 +1393,7 @@ export const municipiosDataBase = [
   {
       id: 107,
       cidade: "Mirandiba (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1406,7 +1406,7 @@ export const municipiosDataBase = [
   {
       id: 108,
       cidade: "Moreilândia (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1419,7 +1419,7 @@ export const municipiosDataBase = [
   {
       id: 109,
       cidade: "Moreno (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1432,7 +1432,7 @@ export const municipiosDataBase = [
   {
       id: 110,
       cidade: "Nazaré da Mata (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1445,7 +1445,7 @@ export const municipiosDataBase = [
   {
       id: 111,
       cidade: "Olinda (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -1458,7 +1458,7 @@ export const municipiosDataBase = [
   {
       id: 112,
       cidade: "Orobó (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1471,7 +1471,7 @@ export const municipiosDataBase = [
   {
       id: 113,
       cidade: "Orocó (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1484,7 +1484,7 @@ export const municipiosDataBase = [
   {
       id: 114,
       cidade: "Ouricuri (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1497,7 +1497,7 @@ export const municipiosDataBase = [
   {
       id: 115,
       cidade: "Palmares (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1510,7 +1510,7 @@ export const municipiosDataBase = [
   {
       id: 116,
       cidade: "Palmeirina (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1523,7 +1523,7 @@ export const municipiosDataBase = [
   {
       id: 117,
       cidade: "Panelas (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1536,7 +1536,7 @@ export const municipiosDataBase = [
   {
       id: 118,
       cidade: "Paranatama (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1549,7 +1549,7 @@ export const municipiosDataBase = [
   {
       id: 119,
       cidade: "Parnamirim (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1562,7 +1562,7 @@ export const municipiosDataBase = [
   {
       id: 120,
       cidade: "Passira (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1575,7 +1575,7 @@ export const municipiosDataBase = [
   {
       id: 121,
       cidade: "Paudalho (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1588,7 +1588,7 @@ export const municipiosDataBase = [
   {
       id: 122,
       cidade: "Paulista (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -1601,7 +1601,7 @@ export const municipiosDataBase = [
   {
       id: 123,
       cidade: "Pedra (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1614,7 +1614,7 @@ export const municipiosDataBase = [
   {
       id: 124,
       cidade: "Pesqueira (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1627,7 +1627,7 @@ export const municipiosDataBase = [
   {
       id: 125,
       cidade: "Petrolândia (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1640,7 +1640,7 @@ export const municipiosDataBase = [
   {
       id: 126,
       cidade: "Petrolina (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -1653,7 +1653,7 @@ export const municipiosDataBase = [
   {
       id: 127,
       cidade: "Poção (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1666,7 +1666,7 @@ export const municipiosDataBase = [
   {
       id: 128,
       cidade: "Pombos (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1679,7 +1679,7 @@ export const municipiosDataBase = [
   {
       id: 129,
       cidade: "Primavera (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1692,7 +1692,7 @@ export const municipiosDataBase = [
   {
       id: 130,
       cidade: "Quipapá (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1705,7 +1705,7 @@ export const municipiosDataBase = [
   {
       id: 131,
       cidade: "Quixaba (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1718,7 +1718,7 @@ export const municipiosDataBase = [
   {
       id: 132,
       cidade: "Recife (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Metrópole",
       porte2021: "Metrópole",
       equipamentos: {
@@ -1731,7 +1731,7 @@ export const municipiosDataBase = [
   {
       id: 133,
       cidade: "Riacho das Almas (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1744,7 +1744,7 @@ export const municipiosDataBase = [
   {
       id: 134,
       cidade: "Ribeirão (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1757,7 +1757,7 @@ export const municipiosDataBase = [
   {
       id: 135,
       cidade: "Rio Formoso (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1770,7 +1770,7 @@ export const municipiosDataBase = [
   {
       id: 136,
       cidade: "Sairé (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1783,7 +1783,7 @@ export const municipiosDataBase = [
   {
       id: 137,
       cidade: "Salgadinho (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1796,7 +1796,7 @@ export const municipiosDataBase = [
   {
       id: 138,
       cidade: "Salgueiro (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1809,7 +1809,7 @@ export const municipiosDataBase = [
   {
       id: 139,
       cidade: "Saloá (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1822,7 +1822,7 @@ export const municipiosDataBase = [
   {
       id: 140,
       cidade: "Sanharó (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1835,7 +1835,7 @@ export const municipiosDataBase = [
   {
       id: 141,
       cidade: "Santa Cruz (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1848,7 +1848,7 @@ export const municipiosDataBase = [
   {
       id: 142,
       cidade: "Santa Cruz da Baixa Verde (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1861,7 +1861,7 @@ export const municipiosDataBase = [
   {
       id: 143,
       cidade: "Santa Cruz do Capibaribe (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Médio Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -1874,7 +1874,7 @@ export const municipiosDataBase = [
   {
       id: 144,
       cidade: "Santa Filomena (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1887,7 +1887,7 @@ export const municipiosDataBase = [
   {
       id: 145,
       cidade: "Santa Maria da Boa Vista (PE)",
-      rd: "rd 02 - Sertão São Francisco",
+      rd: "RD 02 - Sertão São Francisco",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1900,7 +1900,7 @@ export const municipiosDataBase = [
   {
       id: 146,
       cidade: "Santa Maria do Cambucá (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1913,7 +1913,7 @@ export const municipiosDataBase = [
   {
       id: 417,
       cidade: "Santa Terezinha (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1926,7 +1926,7 @@ export const municipiosDataBase = [
   {
       id: 148,
       cidade: "São Benedito do Sul (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -1939,7 +1939,7 @@ export const municipiosDataBase = [
   {
       id: 149,
       cidade: "São Bento do Una (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -1952,7 +1952,7 @@ export const municipiosDataBase = [
   {
       id: 150,
       cidade: "São Caitano (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1965,7 +1965,7 @@ export const municipiosDataBase = [
   {
       id: 151,
       cidade: "São João (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1978,7 +1978,7 @@ export const municipiosDataBase = [
   {
       id: 152,
       cidade: "São Joaquim do Monte (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -1991,7 +1991,7 @@ export const municipiosDataBase = [
   {
       id: 153,
       cidade: "São José da Coroa Grande (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2004,7 +2004,7 @@ export const municipiosDataBase = [
   {
       id: 154,
       cidade: "São José do Belmonte (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2017,7 +2017,7 @@ export const municipiosDataBase = [
   {
       id: 155,
       cidade: "São José do Egito (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2030,7 +2030,7 @@ export const municipiosDataBase = [
   {
       id: 156,
       cidade: "São Lourenço da Mata (PE)",
-      rd: "rd 12 - Região Metropolitana",
+      rd: "RD 12 - Região Metropolitana",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -2043,7 +2043,7 @@ export const municipiosDataBase = [
   {
       id: 157,
       cidade: "São Vicente Férrer (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2056,7 +2056,7 @@ export const municipiosDataBase = [
   {
       id: 158,
       cidade: "Serra Talhada (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -2069,7 +2069,7 @@ export const municipiosDataBase = [
   {
       id: 159,
       cidade: "Serrita (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2082,7 +2082,7 @@ export const municipiosDataBase = [
   {
       id: 160,
       cidade: "Sertânia (PE)",
-      rd: "rd 06 - Sertão Moxotó",
+      rd: "RD 06 - Sertão Moxotó",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2095,7 +2095,7 @@ export const municipiosDataBase = [
   {
       id: 161,
       cidade: "Sirinhaém (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2108,7 +2108,7 @@ export const municipiosDataBase = [
   {
       id: 162,
       cidade: "Solidão (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2121,7 +2121,7 @@ export const municipiosDataBase = [
   {
       id: 163,
       cidade: "Surubim (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -2134,7 +2134,7 @@ export const municipiosDataBase = [
   {
       id: 164,
       cidade: "Tabira (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2147,7 +2147,7 @@ export const municipiosDataBase = [
   {
       id: 165,
       cidade: "Tacaimbó (PE)",
-      rd: "rd 08 - Agreste Central",
+      rd: "RD 08 - Agreste Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2160,7 +2160,7 @@ export const municipiosDataBase = [
   {
       id: 166,
       cidade: "Tacaratu (PE)",
-      rd: "rd 01 - Sertão Itaparica",
+      rd: "RD 01 - Sertão Itaparica",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2173,7 +2173,7 @@ export const municipiosDataBase = [
   {
       id: 167,
       cidade: "Tamandaré (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2186,7 +2186,7 @@ export const municipiosDataBase = [
   {
       id: 168,
       cidade: "Taquaritinga do Norte (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2199,7 +2199,7 @@ export const municipiosDataBase = [
   {
       id: 169,
       cidade: "Terezinha (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2212,7 +2212,7 @@ export const municipiosDataBase = [
   {
       id: 170,
       cidade: "Terra Nova (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2225,7 +2225,7 @@ export const municipiosDataBase = [
   {
       id: 171,
       cidade: "Timbaúba (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Médio Porte",
       porte2021: "Médio Porte",
       equipamentos: {
@@ -2238,7 +2238,7 @@ export const municipiosDataBase = [
   {
       id: 172,
       cidade: "Toritama (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2251,7 +2251,7 @@ export const municipiosDataBase = [
   {
       id: 173,
       cidade: "Tracunhaém (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2264,7 +2264,7 @@ export const municipiosDataBase = [
   {
       id: 174,
       cidade: "Trindade (PE)",
-      rd: "rd 03 - Sertão Araripe",
+      rd: "RD 03 - Sertão Araripe",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2277,7 +2277,7 @@ export const municipiosDataBase = [
   {
       id: 175,
       cidade: "Triunfo (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2290,7 +2290,7 @@ export const municipiosDataBase = [
   {
       id: 176,
       cidade: "Tupanatinga (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2303,7 +2303,7 @@ export const municipiosDataBase = [
   {
       id: 177,
       cidade: "Tuparetama (PE)",
-      rd: "rd 05 - Sertão do Pajeú",
+      rd: "RD 05 - Sertão do Pajeú",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2316,7 +2316,7 @@ export const municipiosDataBase = [
   {
       id: 178,
       cidade: "Venturosa (PE)",
-      rd: "rd 07 - Agreste Meridional",
+      rd: "RD 07 - Agreste Meridional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2329,7 +2329,7 @@ export const municipiosDataBase = [
   {
       id: 179,
       cidade: "Verdejante (PE)",
-      rd: "rd 04 - Sertão Central",
+      rd: "RD 04 - Sertão Central",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2342,7 +2342,7 @@ export const municipiosDataBase = [
   {
       id: 180,
       cidade: "Vertente do Lério (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
@@ -2355,7 +2355,7 @@ export const municipiosDataBase = [
   {
       id: 181,
       cidade: "Vertentes (PE)",
-      rd: "rd 09 - Agreste Setentrional",
+      rd: "RD 09 - Agreste Setentrional",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2368,7 +2368,7 @@ export const municipiosDataBase = [
   {
       id: 182,
       cidade: "Vicência (PE)",
-      rd: "rd 11 - Mata Norte",
+      rd: "RD 11 - Mata Norte",
       porte2010: "Pequeno Porte II",
       porte2021: "Pequeno Porte II",
       equipamentos: {
@@ -2381,7 +2381,7 @@ export const municipiosDataBase = [
   {
       id: 183,
       cidade: "Vitória de Santo Antão (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Grande Porte",
       porte2021: "Grande Porte",
       equipamentos: {
@@ -2394,7 +2394,7 @@ export const municipiosDataBase = [
   {
       id: 184,
       cidade: "Xexéu (PE)",
-      rd: "rd 10 - Mata Sul",
+      rd: "RD 10 - Mata Sul",
       porte2010: "Pequeno Porte I",
       porte2021: "Pequeno Porte I",
       equipamentos: {
