@@ -1,3 +1,7 @@
+<div class="backButon" routerLink="/">
+  <i class="bi bi-arrow-left-square"></i>
+  <label>Voltar</label>
+</div>
 <div class="labelControl titleCidadeEscolhida">
   <div class="titleCidadeEscolhidaLabel">{{municipio.cidade}}</div>
 
@@ -9,7 +13,7 @@
   </mat-form-field>
 </div>
 <div class="areaDivisao">
-  <div>
+  <div style="width: 430px;">
     <!-- Região Desenvolvimento Control -->
     <div class="control">
       <div class="labelControl">Região desenvolvimento</div>
@@ -18,38 +22,62 @@
       </div>
     </div>
 
-    <!-- Porte Populacional Control -->
-    <div class="control">
-      <div class="labelControl">Porte populacional</div>
-      <div class="controlArea">
-        <div class="controlArea1">2010</div>
-        <div class="controlArea2">{{municipio.porte2010}}</div>
-        <div class="controlArea1">2021</div>
-        <div class="controlArea2">{{municipio.porte2021}}</div>
+    <div style="display: flex;">
+      <!-- Porte Populacional Control -->
+      <div class="control">
+        <div class="labelControl">Porte populacional</div>
+        <div>
+          <div class="controlArea">
+            <div class="controlArea1">2001</div>
+            <div class="controlArea2">{{municipioService.classificaPorte(previsoesPopulacionais['2001'])}}</div>
+          </div>
+          <div class="controlArea">
+            <div class="controlArea1">2010</div>
+            <div class="controlArea2">{{municipio.porte2010}}</div>
+          </div>
+          <div class="controlArea">
+            <div class="controlArea1">2021</div>
+            <div class="controlArea2">{{municipio.porte2021}}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- População -->
+      <div class="control populacaoArea">
+        <div class="labelControl">População</div>
+        <div>
+          <div class="controlArea">
+            <div class="controlArea1">2001</div>
+            <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2001'])}}</div>
+          </div>
+          <div class="controlArea">
+            <div class="controlArea1">2009</div>
+            <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2009'])}}</div>
+          </div>
+          <div class="controlArea">
+            <div class="controlArea1">2021</div>
+            <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2021'])}}</div>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- Previsão da próxima mudança de porte Control -->
     <div class="control">
-      <div class="labelControl">Previsão da próxima mudança de porte</div>
-      <div class="controlArea">
-        <div class="controlArea1">2010</div>
-        <div class="controlArea2">{{municipio.porte2010}}</div>
-        <div class="controlArea1">2021</div>
-        <div class="controlArea2">{{municipio.porte2021}}</div>
+      <div class="labelControl">Previsão das próximas mudanças de porte</div>
+      <div>
+        <div class="controlArea">
+          <div class="controlArea1">2030</div>
+          <div class="controlArea2">{{municipioService.classificaPorte(previsoesPopulacionais['2030'])}}</div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1">2040</div>
+          <div class="controlArea2">{{municipioService.classificaPorte(previsoesPopulacionais['2040'])}}</div>
+        </div>
       </div>
     </div>
 
-    <!-- População -->
-    <div class="control">
-      <div class="labelControl">População</div>
-      <div class="controlArea">
-        <div class="controlArea1">2009</div>
-        <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2009'])}}</div>
-        <div class="controlArea1">2021</div>
-        <div class="controlArea2">{{formatNumber(previsoesPopulacionais['2021'])}}</div>
-      </div>
-    </div>
+
   </div>
   <div class="chartArea">
     <div class="labelControl">Crescimento populacional</div>
@@ -58,77 +86,155 @@
 </div>
 
 <div class="labelControl titleCidadeEscolhida secondArea">
-  <div class="titleCidadeEscolhidaLabel">{{municipio.cidade}} - Política pública de Assistência Social</div>
+  <div class="titleCidadeEscolhidaLabel">{{municipio.cidade}} - Política Pública de Assistência Social</div>
 </div>
-<div class="areaDivisao" style="height: 500px;">
+<div class="areaDivisao2">
   <!-- Equipamento Control -->
   <div class="control100">
     <div class="labelControl">Equipamentos</div>
     <div>
       <!-- CRAS -->
       <div class="controlArea100">
-        <div class="controlArea1">CRAS</div>
+        <div class="controlArea1 controlArea1Equipamento">CRAS</div>
         <div class="equipamentoLabel">
           <div>Quantidade</div>
           <div>{{municipio.equipamentos.cras}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras antes de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('CRAS', municipio.porte2010 , false))}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras após de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('CRAS', municipio.porte2010 , true))}}</div>
         </div>
       </div>
       <!-- CREAS -->
       <div class="controlArea100">
-        <div class="controlArea1">CREAS</div>
+        <div class="controlArea1 controlArea1Equipamento">CREAS</div>
         <div class="equipamentoLabel">
           <div>Quantidade</div>
           <div>{{municipio.equipamentos.creas}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras antes de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('CREAS', municipio.porte2010 , false))}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras após de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('CREAS', municipio.porte2010 , true))}}</div>
         </div>
       </div>
       <!-- CENTRO POP -->
       <div class="controlArea100">
-        <div class="controlArea1">CENTRO POP</div>
+        <div class="controlArea1 controlArea1Equipamento">CENTRO POP</div>
         <div class="equipamentoLabel">
           <div>Quantidade</div>
           <div>{{municipio.equipamentos.centroPOP}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras antes de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('CENTRO POP', municipio.porte2010 , false))}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras após de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('CENTRO POP', municipio.porte2010 , true))}}</div>
         </div>
       </div>
       <!-- ACOLHIMENTO INSTITUCIONAL -->
       <div class="controlArea100">
-        <div class="controlArea1">ACOLHIMENTO INSTITUCIONAL</div>
+        <div class="controlArea1 controlArea1Equipamento" style="font-size: 14px;">ACOLHIMENTO INSTITUCIONAL</div>
         <div class="equipamentoLabel">
           <div>Quantidade</div>
           <div>{{municipio.equipamentos.servAcolhimento}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras antes de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras antes de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('SERV ACOLHIMENTO', municipio.porte2010 , false))}}</div>
         </div>
         <div class="equipamentoLabel">
-          <div>Valor cofinanciamento  <span class="redText">(Regras após de 2019)</span></div>
-          <div>{{municipio.equipamentos.cras}}</div>
+          <div>Valor cofinanciamento <span class="redText">(Regras após de 2019)</span></div>
+          <div>R$ {{formatNumber(municipioService.getValorPorEquipamento('SERV ACOLHIMENTO', municipio.porte2010 , true))}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="areaEquipamentoArrecadacao">
+    <!-- Arrecadação (Ano de 2020) Control -->
+    <div>
+      <div class="labelControl">Arrecadação (Ano de 2020)</div>
+      <div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel">Porte Desatualizado</div>
+          <div class="controlArea2 arrecadacaoControlValue">
+            R$ {{formatNumber(arrecadacaoAnualPorteDesatualizadoPosRegras2019)}}
+          </div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel">Porte Atualizado</div>
+          <div class="controlArea2 arrecadacaoControlValue">
+            R$ {{formatNumber(arrecadacaoAnualPorteAtualizadoPosRegras2019)}}
+          </div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel">Balanço</div>
+          <div class="controlArea2 arrecadacaoControlValue redText">
+            R$ {{formatNumber(arrecadacaoAnualPorteDesatualizadoPosRegras2019 - arrecadacaoAnualPorteAtualizadoPosRegras2019)}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrecadação acumulada (2010 - 2020) Control-->
+    <div>
+      <div class="labelControl">Arrecadação Acumulada (2010 - 2020)</div>
+      <div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel">Porte Desatualizado</div>
+          <div class="controlArea2 arrecadacaoControlValue">
+            R$ {{formatNumber(arrecadacaoAnualAcumuladaPorteAtualizado)}}
+          </div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel">Porte Atualizado</div>
+          <div class="controlArea2 arrecadacaoControlValue">
+            R$ {{formatNumber(arrecadacaoAnualAcumuladaPorteDesatualizado)}}
+          </div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel">Balanço</div>
+          <div class="controlArea2 arrecadacaoControlValue redText">
+            R$ {{formatNumber(arrecadacaoAnualAcumuladaPorteDesatualizado - arrecadacaoAnualAcumuladaPorteAtualizado)}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrecadação (Ano de 2020) - Efeito da portaria 2.363/2013 Control-->
+    <div>
+      <div class="labelControl">Arrecadação (Ano de 2020) - Efeito da portaria 2.363/2013</div>
+      <div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel2">Regras antes de 2019</div>
+          <div class="controlArea2 arrecadacaoControlValue">
+            R$ {{formatNumber(arrecadacaoAnualPorteDesatualizadoAntesRegras2019)}}
+          </div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel2">Regras após de 2019</div>
+          <div class="controlArea2 arrecadacaoControlValue">
+            R$ {{formatNumber(arrecadacaoAnualPorteDesatualizadoPosRegras2019)}}
+          </div>
+        </div>
+        <div class="controlArea">
+          <div class="controlArea1 arrecadacaoControlLabel2">Balanço</div>
+          <div class="controlArea2 arrecadacaoControlValue redText">
+            R$ {{formatNumber(arrecadacaoAnualPorteDesatualizadoPosRegras2019 - arrecadacaoAnualPorteDesatualizadoAntesRegras2019)}}
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+<div style="height: 20px;"></div>
