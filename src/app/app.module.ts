@@ -23,6 +23,7 @@ import { ListaMunicipiosComponent } from './municipio/lista-municipios/lista-mun
 import { MunicipioOverviewComponent } from './municipio/municipio-overview/municipio-overview.component';
 import { SobreComponent } from './shared/sobre/sobre.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableExporterModule } from 'mat-table-exporter';
 
 const materialModules = [
   MatTableModule,
@@ -31,7 +32,8 @@ const materialModules = [
   MatSlideToggleModule,
   MatPaginatorModule,
   MatSortModule,
-  MatSelectModule
+  MatSelectModule,
+  MatTableExporterModule
 ]
 
 @NgModule({
