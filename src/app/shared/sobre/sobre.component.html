@@ -21,8 +21,25 @@
             </ul>
         </li>
     </ol>
-    Depois de todas essas análises, foi possível verificar que não há correlação, além disso, também foram apenas registradas esses dados em 5 anos do Censo, pouco em relação à treinamento de máquina.
-    Por último, foi feito uma tabela com todos os dados juntos, do Censo e da Estimativa Populacional, e com essa, foi feita o treinamento com esses dados.
+    <p>Gráfico da análise de Correlação</p>
+    <img src="../../../assets/img/Grafico - analise correlacao homensmulheres.png" style="width: 1000px;">
+
+    <p>Depois de todas essas análises, foi possível verificar que não há correlação, além disso, também foram apenas registradas esses dados em 5 anos do Censo, pouco em relação à treinamento de máquina.
+    Por último, foi feito uma tabela com todos os dados juntos, do Censo e da Estimativa Populacional, e com essa, foi feita o treinamento com esses dados.</p>
+
+    <p>O quadro que utilizamos para o cálculo da arrecadação</p>
+    <img src="../../../assets/img/Quadro de valores por equipamento.png">
+
+    <p>Classificação do Porte</p>
+    <li>Parâmetros da classificação:
+      <ul>
+          <li>Pequeno Porte 1 -> até 20000</li>
+          <li>Pequeno Porte 2 -> de 20001 até 50000Método de Kendall</li>
+          <li>Médio Porte -> de 50001 até 100000</li>
+          <li>Grande Porte -> de 100001 até 900000</li>
+          <li>Metrópole -> A partir de 900001</li>
+      </ul>
+  </li>
 
 
 <h2>Técnicas</h2>
@@ -31,11 +48,22 @@
     A linguagem utilizada foi a Python, por causa de sua versatilidade, grande número de bibliotecas de análise e manipulação de dados e grande comunidade.
     A biblioteca para a análise e manipulação de dados, foi a Pandas. Para a formação, treinamento e execução da MLP por Regressão. Foi utilizada a biblioteca Keras.
     A Técnica de Validação Cruzada, foi a de Hold-Out, onde dois terços (2/3) dos dados foram alocados para a etapa de Treinamento e o resto (1/3) foi usada como Teste.
-    Por último foi utilizada a Técnica de Métricas chamada de Erro Quadrático Médio, uma forma muito utilizada e de bastante eficácia, para verificar o resultado da máquina. 
+    Por último foi utilizada a Técnica de Métricas chamada de Erro Quadrático Médio, uma forma muito utilizada e de bastante eficácia, para verificar o resultado da máquina.
 </p>
 
 <h2>Modelo de Previsão</h2>
+<p>Exemplo de Tabela com os dados de treino e teste do modelo para um município</p>
+<img src="../../../assets/img/tabelaDadosTreino.png">
+<img src="../../../assets/img/tabelaDadosTeste.png">
+
+<p>Resultados do modelo</p>
+<img src="../../../assets/img/modeloPrevisao.png">
+
 <p> O modelo de previsão e todo o processo descrito acima está localizado neste <a href="https://colab.research.google.com/drive/1AOAoS55qL21cv8GsoTIMq0ORhvtBR1sZ?usp=sharing">link</a>, é possível ver cada parte como um tópico.</p>
+
+<h2>Resultados</h2>
+<p>Tabela com as cidades do pernambuco com o porte atualizado</p>
+<img src="../../../assets/img/tabelaPorteAtualizado.png" style="width: 500px;">
 
 <h2>Steakholders</h2>
 <p>
