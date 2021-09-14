@@ -15,7 +15,7 @@
       <label *ngIf="!apenasPortesAlterados" class="toggleButtonApenasPortesAlteradosLabel">Inativo</label>
     </mat-slide-toggle>
   </div>
-  <div class="export">
+  <div class="export" title="Exportar dados">
     <i class="bi bi-file-earmark-arrow-down sobreIcon" (click)  = "exporter.exportTable('xlsx', {fileName: 'Municipios'})"></i>
   </div>
 </div>
