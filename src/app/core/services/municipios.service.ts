@@ -29,6 +29,156 @@ export class MunicipiosService {
   calculaProximoAnoAlteraPorte() {
     return 0;
   }
+
+  classificaPorte(populacao: number) {
+    if (populacao <= 20000) {
+      return 'Pequeno Porte I'
+    }
+    else if (populacao <= 50000) {
+      return 'Pequeno Porte II'
+    }
+    else if (populacao <= 100000) {
+      return 'Médio Porte'
+    }
+    else if (populacao <= 900000) {
+      return 'Grande Porte'
+    }
+    else {
+      return 'Metrópole'
+    }
+  }
+
+  calcularArrecadacaoAnual(regrasApos2019: boolean, porte: string, equipamentos: IEquipamentosServicoSocial) {
+    let arrecadacaoMensalCRAS = this.getValorPorEquipamento('CRAS', porte, regrasApos2019)* equipamentos.cras;
+    let arrecadacaoMensalCREAS = this.getValorPorEquipamento('CREAS', porte, regrasApos2019)* equipamentos.creas;
+    let arrecadacaoMensalSERVACOLHIMENTO = this.getValorPorEquipamento('SERV ACOLHIMENTO', porte, regrasApos2019)* equipamentos.servAcolhimento;
+    let arrecadacaoMensalCENTROPOP = this.getValorPorEquipamento('CENTRO POP', porte, regrasApos2019)* equipamentos.centroPOP;
+
+    let arrecadacaoMensalTotal = arrecadacaoMensalCRAS + arrecadacaoMensalCREAS + arrecadacaoMensalSERVACOLHIMENTO + arrecadacaoMensalCENTROPOP;
+
+    return arrecadacaoMensalTotal* 12
+  }
+
+  getValorPorEquipamento(equipamento: string, porte: string, regrasApos2019: boolean): number {
+    switch(porte) {
+      case 'Pequeno Porte I': {
+        if (equipamento == 'CRAS') {
+          if (regrasApos2019)
+            return 2500
+          else return 5000
+        }
+        else if(equipamento == 'CREAS') {
+          if (regrasApos2019)
+            return 0
+          else return 6500
+        }
+        else if(equipamento == 'SERV ACOLHIMENTO') {
+          if (regrasApos2019)
+            return 0
+          else return 0
+        }
+        else if(equipamento == 'CENTRO POP') {
+          if (regrasApos2019)
+            return 0
+          else return 0
+        }
+        break;
+      }
+      case 'Pequeno Porte II': {
+        if (equipamento == 'CRAS') {
+          if (regrasApos2019)
+            return 3500
+          else return 6500
+        }
+        else if(equipamento == 'CREAS') {
+          if (regrasApos2019)
+            return 2600
+          else return 8000
+        }
+        else if(equipamento == 'SERV ACOLHIMENTO') {
+          if (regrasApos2019)
+            return 2000
+          else return 5000
+        }
+        else if(equipamento == 'CENTRO POP') {
+          if (regrasApos2019)
+            return 0
+          else return 0
+        }
+        break;
+      }
+      case 'Médio Porte': {
+        if (equipamento == 'CRAS') {
+          if (regrasApos2019)
+            return 3600
+          else return 9000
+        }
+        else if(equipamento == 'CREAS') {
+          if (regrasApos2019)
+            return 4000
+          else return 8000
+        }
+        else if(equipamento == 'SERV ACOLHIMENTO') {
+          if (regrasApos2019)
+            return 4000
+          else return 10000
+        }
+        else if(equipamento == 'CENTRO POP') {
+          if (regrasApos2019)
+            return 0
+          else return 0
+        }
+        break;
+      }
+      case 'Grande Porte': {
+        if (equipamento == 'CRAS') {
+          if (regrasApos2019)
+            return 4900
+          else return 12000
+        }
+        else if(equipamento == 'CREAS') {
+          if (regrasApos2019)
+            return 4100
+          else return 10300
+        }
+        else if(equipamento == 'SERV ACOLHIMENTO') {
+          if (regrasApos2019)
+            return 8100
+          else return 10000
+        }
+        else if(equipamento == 'CENTRO POP') {
+          if (regrasApos2019)
+            return 5200
+          else return 0
+        }
+        break;
+      }
+      case 'Metrópole': {
+        if (equipamento == 'CRAS') {
+          if (regrasApos2019)
+            return 4414
+          else return 9000
+        }
+        else if(equipamento == 'CREAS') {
+          if (regrasApos2019)
+            return 3586
+          else return 13000
+        }
+        else if(equipamento == 'SERV ACOLHIMENTO') {
+          if (regrasApos2019)
+            return 10000
+          else return 10000
+        }
+        else if(equipamento == 'CENTRO POP') {
+          if (regrasApos2019)
+            return 18750
+          else return 23000
+        }
+        break;
+      }
+    }
+    return -1;
+  }
 }
 
 
